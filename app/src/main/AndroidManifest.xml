@@ -24,6 +24,7 @@
             <meta-data android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR" android:resource="@color/bg" />
             <meta-data android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR" android:resource="@color/bg" />
             <meta-data android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY" android:value="customtabs" />
+            <meta-data android:name="android.support.customtabs.trusted.DISPLAY_MODE" android:value="sticky-immersive" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

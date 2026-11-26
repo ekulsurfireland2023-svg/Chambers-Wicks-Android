@@ -37,6 +37,11 @@
                 <data android:scheme="https" android:host="preeminent-scone-907fbb.netlify.app" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+            android:exported="true"
+            android:enabled="false" />
     </application>
 
     <queries>
